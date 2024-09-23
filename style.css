@@ -1,0 +1,57 @@
+body {
+  background-image: url("maxresdefault.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.toDo {
+  background-color: #c2c1eb;
+  width: 40%;
+  height: 500px;
+  padding: 30px;
+  margin: 150px auto;
+  border-radius: 30px 30px 30px;
+}
+
+.textDiv {
+  text-align: center;
+  font-size: 50px;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+}
+#inputText {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  width: 95%;
+  height: 50px;
+  margin: 0 10px 0px;
+  box-sizing: border-box;
+}
+#submit {
+  background-color: white;
+  color: #c2c1eb;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  width: 95%;
+  height: 50px;
+  cursor: pointer;
+  margin: 0 10px 0px;
+  font-size: larger;
+}
+
+#list{
+  color: white;
+  font-size: xx-large;
+}
+deleteButton, editButton{
+  background-color: white;
+  color: #c2c1eb;
+  padding: 9px;
+  border-radius: 10px;
+  font-size: medium;
+  margin: 0 10px 0px;
+  cursor: pointer;
+}
